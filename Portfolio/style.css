@@ -20,6 +20,9 @@ html,body{
   width:33%;
   float:left;
 }
+.width-33 i{
+  color:#ffbf35;
+}
 .width-66{
   width:66%;
   float:left;
@@ -52,5 +55,37 @@ nav a{
   width:50%;
 }
 .banner-section{
-  
+  width:100%;
+  float:left;
+  margin-top:25vh;
+ 
+}
+.banner-section h1{
+  font-size:48px;
+  margin-top:10px;
+  font-weight:bolder;
+}
+.banner-section h2{
+  font-size:20px;
+  line-height:25px;
+  margin-top:10px;
+  font-weight:400;
+  font-family:monospace;
+}
+.banner-section a{
+  float:left;
+  margin-top:20px;
+  border-radius:50%;
+  text-align:center;
+  border:3px solid #ffbf35;
+  margin-left:10px;
+  height:50px;
+  width:50px;
+  line-height:50px;
+}
+/*MAIN BANNER IMAGE*/
+.main-panel img {
+  margin-top:10%;
+  width:100;
+  margin-left:10%;
 }
