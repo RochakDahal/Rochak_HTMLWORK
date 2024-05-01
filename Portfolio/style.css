@@ -48,6 +48,7 @@ nav a{
   font-weight:500px;
   margin-left:20px;
   color:white;
+  font-style:bold;
 }
 /* MAIN BANNER*/
 .width-50{
@@ -64,13 +65,29 @@ nav a{
   font-size:48px;
   margin-top:10px;
   font-weight:bolder;
+  animation:animate 10s linear forwards;
 }
+@keyframes animate {
+    0% {
+        transform: rotate(0deg) 
+        translateY(0px);
+        opacity: 1;
+        filter: blur(1px);
+    }
+    100% {
+        transform: rotate(45deg) 
+        translateY(-200px);
+        opacity: 0;
+        filter: blur(10px);
+    }
+}
+
 .banner-section h2{
   font-size:20px;
   line-height:25px;
   margin-top:10px;
   font-weight:400;
-  font-family:monospace;
+  font-family:serif;
 }
 .banner-section a{
   float:left;
